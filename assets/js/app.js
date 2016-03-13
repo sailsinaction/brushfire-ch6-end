@@ -39,7 +39,7 @@ angular.module('brushfire', ['ngRoute', 'toastr', 'compareTo', 'ngPatternRestric
     controller: 'editProfilePageController'
   })
 
-  .when('/restore', {
+  .when('/restore-profile', {
     templateUrl: '/templates/restore-profile.html',
     controller: 'restorePageController'
   });
