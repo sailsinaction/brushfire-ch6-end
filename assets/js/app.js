@@ -20,7 +20,7 @@ angular.module('brushfire', ['ngRoute', 'toastr', 'compareTo', 'ngPatternRestric
   })
 
     .when('/administration', {
-    templateUrl: '/templates/adminUsers.html',
+    templateUrl: '/templates/admin-users.html',
     controller: 'adminUsersPageController'
   })
 
