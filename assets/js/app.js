@@ -19,7 +19,7 @@ angular.module('brushfire', ['ngRoute', 'toastr', 'compareTo', 'ngPatternRestric
     controller: 'signupPageController'
   })
 
-    .when('/administration', {
+  .when('/administration', {
     templateUrl: '/templates/admin-users.html',
     controller: 'adminUsersPageController'
   })
