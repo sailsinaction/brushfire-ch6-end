@@ -21,7 +21,7 @@
         ng-class="{'has-error':signup.email.$invalid &&
         signup.email.$dirty}">
         <label>Your email address</label>
-        <input type="email" class="form-control" placeholder="nikola@tesla.com" name="email" ng-model="signupForm.email" required >
+        <input type="email" class="form-control" placeholder="nikola@tesla.com" autofocus name="email" ng-model="signupForm.email" required >
         <span class="help-block has-error" ng-if="signup.email.$dirty">
           <span ng-show="signup.email.$error.required">Email address is required.</span>
           <span ng-show="signup.email.$error.email">Not a valid email address.</span>
